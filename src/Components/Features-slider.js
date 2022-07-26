@@ -15,9 +15,16 @@ const FeaturesSlider = () => {
         rewind={true}
         navigation={true}
         modules={[Navigation]}
-        className="mySwiper"
+        className="w-full h-full"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide className="bg-white rounded-md p-4">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[19px] font-[Ubuntu] mb-2">Babies</div>
+          <div className='text-[#3D5C70] text-[16px] mt-4 mb-[40px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+
+          </div>
+        </SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>
