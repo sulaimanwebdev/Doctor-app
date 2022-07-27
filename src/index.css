@@ -54,3 +54,29 @@ text-fill-color: transparent;
 .footer-bg{
   background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
 }
+
+
+
+
+@media (max-width: 1024px){
+.home-bg{
+  clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 86%);
+}
+}
+
+@media (max-width: 600px){
+.home-bg{
+  clip-path: polygon(0 0, 100% 0%, 100% 71%, 0 90%);
+}
+}
+
+@media (max-width: 918px){
+  .slider-bg{
+    clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0 100%) !important;
+  }
+
+  .slider-bg .common-width{
+   padding-top: 100px;
+   padding-bottom: 70px;
+  }
+}

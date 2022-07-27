@@ -17,6 +17,20 @@ const FeaturesSlider = () => {
      
     <div className="relative">
     <Swiper
+    breakpoints={{
+      0: {
+        // width: 0,
+        slidesPerView: 1,
+      },
+      682: {
+        // width: 576,
+        slidesPerView: 2,
+      },
+      952: {
+        // width: 952,
+        slidesPerView: 3,
+      },
+    }}
         slidesPerView={3}
         spaceBetween={20}
         rewind={true}
