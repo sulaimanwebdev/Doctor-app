@@ -28,6 +28,17 @@ body {
 }
 
 .common-width{
-max-width: 1150px;
+max-width: 1200px;
 }
 
+.link-gradient{
+  background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.slider-box-shadow{
+  box-shadow: 0px 56px 73px -29px rgba(251, 113, 86, 0.22);
+}

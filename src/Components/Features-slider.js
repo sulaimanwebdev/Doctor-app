@@ -6,34 +6,93 @@ import "swiper/css/navigation";
 
 
 import { Navigation } from "swiper";
+import { Link } from "react-router-dom";
 const FeaturesSlider = () => {
+
+  const navigationPrevRef = React.useRef(null)
+  const navigationNextRef = React.useRef(null)
    
   return (
     <>
+     
+    <div className="relative">
     <Swiper
         slidesPerView={3}
+        spaceBetween={20}
         rewind={true}
-        navigation={true}
+        navigation={{
+          prevEl: navigationPrevRef.current,
+          nextEl: navigationNextRef.current,
+        }}
+        onSwiper={(swiper) => {
+          // Delay execution for the refs to be defined
+          setTimeout(() => {
+            // Override prevEl & nextEl now that refs are defined
+            swiper.params.navigation.prevEl = navigationPrevRef.current
+            swiper.params.navigation.nextEl = navigationNextRef.current
+  
+            // Re-init navigation
+            swiper.navigation.destroy()
+            swiper.navigation.init()
+            swiper.navigation.update()
+          })
+        }}
         modules={[Navigation]}
-        className="w-full h-full"
+        className="w-full"
+        style={{paddingBottom: "120px"}}
       >
-        <SwiperSlide className="bg-white rounded-md p-4">
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
-          <div className="font-[600] text-[#3D5C70] text-[19px] font-[Ubuntu] mb-2">Babies</div>
-          <div className='text-[#3D5C70] text-[16px] mt-4 mb-[40px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </SwiperSlide>
       </Swiper>
+      <div ref={navigationPrevRef} className='w-fit cursor-pointer absolute top-[33%] -left-10' ><img src="/images/prev.svg" alt="prev"/></div>
+      <div ref={navigationNextRef} className='w-fit cursor-pointer absolute top-[33%] -right-10'><img src="/images/next.svg" alt="next"/></div>
+    </div>
     </>
   )
 }
