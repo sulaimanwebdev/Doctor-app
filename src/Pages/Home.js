@@ -1,14 +1,16 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import FeaturesSlider from '../Components/Features-slider'
+import Footer from '../Components/Footer'
 import Header from '../Components/Header'
+import TestimonailsSlider from '../Components/Testimonials-slider'
 
 const Home = () => {
   return (
     <>
     <Header/>
     <div className="home-bg bg-[#F8FBFF] w-full overflow-hidden">
-    <div className="common-width relative min-h-[600px] max-h-[600px] flex items-center gap-[130px]  w-full px-5 pt-1 mx-auto">
+    <div className="common-width relative min-h-[600px] flex items-center gap-[130px]  w-full px-5 pt-1 mx-auto">
       <div className='z-10'>
         <div className='font-[Ubuntu] font-[700] text-[37px] text-[#3D5C70] leading-tight'>We Help Make Peoples<br/> Life Better</div>
         <div className='text-[#3D5C70] text-[16px] mt-4 mb-[40px]'>The future of healthcare that combines the best of artificial<br/> intelligence and experts in the medical field</div>
@@ -35,7 +37,7 @@ const Home = () => {
 
 
     <div className="slider-bg bg-[#F8FBFF] relative w-full">
-    <div className="common-width  min-h-[auto] max-h-[auto] w-full px-5 pt-[250px] pb-[250px] mx-auto">
+    <div className="common-width  min-h-[auto] w-full px-5 pt-[250px] pb-[250px] mx-auto">
       <div className="text-center z-10 relative mb-16">
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>Features</div>
       <div className='font-[Ubuntu] font-[700] text-[34px] text-[#3D5C70] leading-tight'>Solving Healthcare Problems with Artificial Intelligence and Cloud Computing</div>
@@ -93,7 +95,57 @@ const Home = () => {
     </div>
     </div>
 
+    
+    <div className="second-bg bg-[#F8FBFF] w-full overflow-hidden mt-10">
+    <div className="common-width relative min-h-[900px] flex items-center gap-[130px] justify-end w-full px-5 pt-1 mx-auto">
+      <div className='z-10 relative max-w-[600px]'>
+      <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>The Future of HealthCare</div>
+        <div className='font-[Ubuntu] font-[700] text-[37px] text-[#3D5C70] leading-tight'>We’re Improving the way Doctors Help Osteopathy Patients</div>
+        <div className='text-[#3D5C70] leading-relaxed text-[16px] mt-4 mb-[40px]'>We are here to solve healthcare problems with artifical intelligence, we are building a new system to track the life style and help doctors make the better diagnosis.</div>
+        <Link to="/contact"><button className='contact-btn-bg tracking-normal font-[600] flex items-center gap-5 rounded-[4px] py-3 px-14 text-white'>Inquire</button></Link>
+      </div>
+      <img src="images/doctor-2.svg" className='w-[550px] absolute top-[200px] -left-[35px] z-10' alt="doctor" />
+    </div>
+    </div>
 
+
+    <div className="bg-white w-full relative mt-5 mb-6">
+    <div className="common-width bg-white w-full px-5 py-1 mx-auto">
+    <div className="text-center z-10 relative mb-16">
+      <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>Testimonials</div>
+      <div className='font-[Ubuntu] font-[700] text-[34px] text-[#3D5C70] leading-tight'>What our Clients Say</div>
+      </div>
+       <div className="w-full z-10 relative mx-auto max-w-[700px]">
+        <TestimonailsSlider/>
+       </div>
+      <img src="images/circle6.svg" className='w-[400px] absolute bottom-0 right-0 ' alt="circle" />
+    </div>
+    </div>
+
+
+    <div className="footer-bg w-full">
+    <div className="common-width bg-transparent w-full px-5 py-5 mx-auto">
+      <div className="w-full grid grid-cols-2 gap-2 mt-[70px]">
+          <div className='text-white'>
+             <div className='font-[600] text-[28px] font-[Ubuntu]'>Get In Touch With Us</div>
+             <div className='leading-relaxed text-[15px] font-[300] mt-2 opacity-70'>Have any questions? Feel free to contact us through our contact details below or send us a direct message</div>
+              <div className="mt-6">
+                <div className="flex items-center gap-2 text-[16p] font-[600]"><img src="/images/mail.svg" alt="mail" />example@email.com</div>
+                <div className="flex items-center gap-[7px] text-[16p] font-[600] mt-3"><img src="/images/location.svg" className='transform -translate-x-0.5' alt="mail" />Dr. John Doe, South Dakota 12345</div>
+              </div>
+          </div>
+          <div className='w-full text-white'>
+             <input type="text" placeholder='Name*' className='w-full mb-6 placeholder-white placeholder-opacity-70 border-opacity-70 text-white outline-0 border-b border-white bg-transparent pb-1 text-[17px]' />
+             <input type="text" placeholder='Phone Number*' className='w-full mb-6 placeholder-white placeholder-opacity-70 border-opacity-70 text-white outline-0 border-b border-white bg-transparent pb-1 text-[17px]' />
+             <textarea placeholder='Message*' className='w-full min-h-[110px] max-h-[110px] placeholder-white placeholder-opacity-70 border-opacity-70 text-white outline-0 border-b border-white bg-transparent pb-1 text-[17px] resize-none'></textarea>
+             <div className='text-[15px] opacity-70 font-[400] mt-2'>Required fileds are marked *</div>
+             <div className="w-full flex items-center justify-end mt-2"><button className='py-3 px-10 rounded bg-white text-[#EC597C] font-[600]'>Send</button></div>
+          </div>
+      </div>
+      <div className="w-full bg-white h-[1px] opacity-70 my-20"></div>
+      <Footer/>
+    </div>
+    </div>
     </>
   )
 }

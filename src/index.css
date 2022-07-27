@@ -23,6 +23,14 @@ body {
   background-size: cover;
   clip-path: polygon(0 26%, 100% 0%, 100% 71%, 0% 100%);
 }
+
+.second-bg{
+  background-image: url(/public/images/background3.svg);
+  background-position: center;
+  background-size: cover;
+  clip-path: polygon(0 26%, 100% 0%, 100% 71%, 0% 100%);
+}
+
 .contact-btn-bg{
   background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
 }
@@ -41,4 +49,8 @@ text-fill-color: transparent;
 
 .slider-box-shadow{
   box-shadow: 0px 56px 73px -29px rgba(251, 113, 86, 0.22);
+}
+
+.footer-bg{
+  background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
 }

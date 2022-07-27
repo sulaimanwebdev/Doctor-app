@@ -41,7 +41,7 @@ const FeaturesSlider = () => {
         className="w-full"
         style={{paddingBottom: "120px"}}
       >
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
@@ -49,7 +49,7 @@ const FeaturesSlider = () => {
           <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
@@ -57,7 +57,7 @@ const FeaturesSlider = () => {
           <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
@@ -65,7 +65,7 @@ const FeaturesSlider = () => {
           <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
@@ -73,7 +73,7 @@ const FeaturesSlider = () => {
           <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
@@ -81,7 +81,7 @@ const FeaturesSlider = () => {
           <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
-        <SwiperSlide className="slider-box-shadow bg-white rounded-[4px] p-4 pb-7">
+        <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
           <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
