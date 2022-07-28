@@ -123,14 +123,14 @@ const Home = () => {
 
     
     <div className="second-bg bg-[#F8FBFF] w-full overflow-hidden mt-10">
-    <div className="common-width relative lg:min-h-[900px] flex items-center flex-col lg:flex-row gap-[70px] justify-end w-full px-5 pt-1 mx-auto">
+    <div className="common-width relative lg:min-h-[900px] flex items-center flex-col lg:flex-row-reverse xl:flex-row gap-[70px] justify-end w-full px-5 pt-1 mx-auto">
       <div className='z-10 relative max-w-[600px]'>
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>The Future of HealthCare</div>
         <div className='font-[Ubuntu] font-[700] text-[32px] sm:text-[37px] text-[#3D5C70] leading-tight'>We’re Improving the way Doctors Help Osteopathy Patients</div>
         <div className='text-[#3D5C70] leading-relaxed text-[16px] mt-4 mb-[40px]'>We are here to solve healthcare problems with artifical intelligence, we are building a new system to track the life style and help doctors make the better diagnosis.</div>
         <Link to="/contact"><button className='contact-btn-bg tracking-normal font-[600] flex items-center gap-5 rounded-[4px] py-3 px-14 text-white'>Inquire</button></Link>
       </div>
-      <img src="images/doctor-2.svg" className='w-[550px] lg:absolute lg:top-[200px] lg:-left-[35px] z-10' alt="doctor" />
+      <img src="images/doctor-2.svg" className='w-[450px] xl:w-[550px] xl:absolute xl:top-[200px] xl:-left-[35px] z-10' alt="doctor" />
     </div>
     </div>
 

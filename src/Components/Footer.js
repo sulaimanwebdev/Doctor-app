@@ -5,7 +5,7 @@ const Footer = () => {
     <>
     <div className='bg-transparent text-white'>
     <div className='bg-transparent text-white flex items-start flex-col footerBreak:flex-row justify-start gap-[50px] footerBreak:gap-[40px] xl:gap-[80px]'>
-      <div className='w-fit'><Link to="/"><img src="/images/logo-footer.svg" className='w-[200px]' alt="logo" /></Link></div>
+      <div className='w-fit mr-0 footerBreak:mr-[50px]'><Link to="/"><img src="/images/logo-footer.svg" className='w-[200px]' alt="logo" /></Link></div>
       <div className="footerGrid grid grid-cols-2 footerBreak:grid-cols-4 gap-[40px] sm:gap-[70px] footerBreak:gap-[20px] xl:gap-[60px]">
         <div>
             <div className='font-[700] font-[Ubuntu] text-[19px] mb-5'>Quick Links</div>

@@ -67,6 +67,18 @@ text-fill-color: transparent;
 }
 }
 
+
+@media (max-width: 1024px){
+  .second-bg .common-width{
+    padding-top: 180px;
+    padding-bottom: 130px;
+   }
+   .second-bg{
+    clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0 100%) !important;
+
+  }
+}
+
 @media (max-width: 918px){
   .slider-bg{
     clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0 100%) !important;
@@ -77,10 +89,7 @@ text-fill-color: transparent;
    padding-bottom: 70px;
   }
 
-  .second-bg{
-    clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0 100%) !important;
-
-  }
+  
 
   .second-bg .common-width{
     padding-top: 180px;
@@ -88,6 +97,7 @@ text-fill-color: transparent;
    }
  
 }
+
 
 @media (max-width: 467px){
   .dot-first{
