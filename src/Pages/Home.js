@@ -38,12 +38,38 @@ const Home = () => {
 
     <div className="slider-bg bg-[#F8FBFF] relative w-full">
     <div className="common-width min-h-[auto] w-full px-5 pt-[250px] pb-[250px] mx-auto">
-      <div className="text-center z-10 relative mb-16">
+      <div className="text-center z-10 relative mb-16 mt-[60px] sm:mt-0">
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>Features</div>
       <div className='font-[Ubuntu] font-[700] text-[29px] sm:text-[34px] text-[#3D5C70] leading-tight'>Solving Healthcare Problems with Artificial Intelligence and Cloud Computing</div>
       </div>
-      <div className="relative z-10 px-7 xl:px-0">
+      <div className="relative z-10 px-7 xl:px-0 hidden sm:block">
         <FeaturesSlider/>
+      </div>
+      <div className="relative z-10 flex sm:hidden flex-col gap-10 mb-32">
+      <div className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[10px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </div>
+        <div className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[10px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </div>
+        <div className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[10px] p-4 pb-7">
+          <img src="/images/heart.svg" alt="heart"  className="mb-3"/>
+          <div className="pl-3">
+          <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
+          <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
+          </div>
+        </div>
       </div>
     <img src="images/circle3.svg" className='w-[650px] absolute -top-16 -left-[100px] hidden md:block' alt="circle" />
     <img src="images/circle4.svg" className='w-[300px] lg:w-[400px] absolute -top-16 -right-[100px] hidden md:block' alt="circle" />

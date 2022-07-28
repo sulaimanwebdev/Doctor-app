@@ -60,7 +60,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
@@ -68,7 +68,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
@@ -76,7 +76,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
@@ -84,7 +84,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Babies</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
@@ -92,7 +92,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Children</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
         <SwiperSlide className="slider-box-shadow cursor-grab active:cursor-grabbing bg-white rounded-[4px] p-4 pb-7">
@@ -100,7 +100,7 @@ const FeaturesSlider = () => {
           <div className="pl-3">
           <div className="font-[600] text-[#3D5C70] text-[20px] font-[Ubuntu] mb-2">Adult</div>
           <div className='text-[#3D5C70] text-[15px] mt-2 mb-[20px]'>Osteopathic treatment of babies is generally very effective and in most cases leads to very fast results.</div>
-          <Link to="/#"><span className="link-gradient font-[600] text-[17px] underline border-b-2 border-[#d1589b]">Learn More</span></Link>
+          <Link to="/#"><span className="link-gradient font-[600] text-[17px] border-b-2 border-[#d1589b]">Learn More</span></Link>
           </div>
         </SwiperSlide>
       </Swiper>
