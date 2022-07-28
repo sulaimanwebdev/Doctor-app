@@ -57,41 +57,41 @@ const Home = () => {
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>How It Works</div>
       <div className='font-[Ubuntu] font-[700] text-[29px] sm:text-[34px] text-[#3D5C70] leading-tight'>Delivering Personalized Healthcare to Every Patient</div>
       </div>
-       <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-5 z-10 relative overflow-hidden">
-         <div className='text-center flex items-center justify-center flex-col'>
+       <div className="pl-14 sm:pl-0 w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5 z-10 relative overflow-hidden">
+         <div className='sm:text-center flex sm:items-center sm:justify-center flex-col relative'>
          <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.7713 11.1046C15.7715 10.1044 16.3334 8.74782 16.3334 7.33333C16.3334 5.91885 15.7715 4.56229 14.7713 3.5621C13.7711 2.5619 12.4146 2 11.0001 2C9.58559 2 8.22904 2.5619 7.22885 3.5621C6.22865 4.56229 5.66675 5.91885 5.66675 7.33333C5.66675 8.74782 6.22865 10.1044 7.22885 11.1046C8.22904 12.1048 9.58559 12.6667 11.0001 12.6667C12.4146 12.6667 13.7711 12.1048 14.7713 11.1046Z" stroke="url(#paint0_linear_183_12)" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/><path d="M4.40042 19.4003C6.15076 17.65 8.52473 16.6667 11.0001 16.6667C13.4754 16.6667 15.8494 17.65 17.5997 19.4003C19.3501 21.1507 20.3334 23.5246 20.3334 26H1.66675C1.66675 23.5246 2.65008 21.1507 4.40042 19.4003Z" stroke="url(#paint1_linear_183_12)" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="paint0_linear_183_12" x1="21.5654" y1="4.71699" x2="1.23092" y2="5.22024" gradientUnits="userSpaceOnUse"><stop stop-color="#A04276"/><stop offset="0.0001" stop-color="#EC597C"/><stop offset="1" stop-color="#A04276"/></linearGradient><linearGradient id="paint1_linear_183_12" x1="21.5654" y1="4.71699" x2="1.23092" y2="5.22024" gradientUnits="userSpaceOnUse"><stop stop-color="#A04276"/><stop offset="0.0001" stop-color="#EC597C"/><stop offset="1" stop-color="#A04276"/></linearGradient></defs></svg>
          <div className="link-gradient font-[Ubuntu] font-[700] text-[22px] mt-2">Step 1</div>
-          <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-3 mb-2 relative"><div className="absolute bg-[#3D5C70] top-1/2 left-full h-[1px] w-[250px] md:w-[500px] xl:w-[880px]"></div></div>
-           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu]'>Title Here</div>
+          <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-3 mb-2 absolute top-1/2 -left-10 sm:top-auto sm:left-auto sm:relative"><div className="absolute dot-first bg-[#3D5C70] top-0 left-1/2 sm:top-1/2 h-[600px] sm:left-full w-[1px] sm:h-[1px] sm:w-[250px] md:w-[500px] xl:w-[880px]"></div></div>
+           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu] mt-2 sm:mt-0'>Title Here</div>
           <div className='text-[#3D5C70] text-[14.5px] mt-2 mb-[20px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit mattis at commodo lobortis orci ipsum.</div>
          </div>
 
-         <div className='text-center flex items-center justify-center flex-col'>
+         <div className='sm:text-center flex sm:items-center sm:justify-center flex-col relative '>
          <svg width="22" height="28" viewBox="0 0 22 28" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.99996 4.66667H4.33329C3.62605 4.66667 2.94777 4.94762 2.44767 5.44772C1.94758 5.94781 1.66663 6.62609 1.66663 7.33333V23.3333C1.66663 24.0406 1.94758 24.7189 2.44767 25.219C2.94777 25.719 3.62605 26 4.33329 26H17.6666C18.3739 26 19.0521 25.719 19.5522 25.219C20.0523 24.7189 20.3333 24.0406 20.3333 23.3333V7.33333C20.3333 6.62609 20.0523 5.94781 19.5522 5.44772C19.0521 4.94762 18.3739 4.66667 17.6666 4.66667H15M6.99996 4.66667C6.99996 5.37391 7.28091 6.05219 7.78101 6.55229C8.28111 7.05238 8.95938 7.33333 9.66663 7.33333H12.3333C13.0405 7.33333 13.7188 7.05238 14.2189 6.55229C14.719 6.05219 15 5.37391 15 4.66667M6.99996 4.66667C6.99996 3.95942 7.28091 3.28115 7.78101 2.78105C8.28111 2.28095 8.95938 2 9.66663 2H12.3333C13.0405 2 13.7188 2.28095 14.2189 2.78105C14.719 3.28115 15 3.95942 15 4.66667M6.99996 16.6667L9.66663 19.3333L15 14" stroke="url(#paint0_linear_183_2)" stroke-width="2.66667" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="paint0_linear_183_2" x1="21.5653" y1="4.71699" x2="1.2308" y2="5.22024" gradientUnits="userSpaceOnUse"><stop stop-color="#A04276"/><stop offset="0.0001" stop-color="#EC597C"/><stop offset="1" stop-color="#A04276"/></linearGradient></defs></svg>
          <div className="link-gradient font-[Ubuntu] font-[700] text-[22px] mt-2">Step 2</div>
-         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-3 mb-2 relative"><div className="absolute bg-[#3D5C70] top-1/2 right-full h-[1px] w-[250px] md:w-[500px] xl:w-[880px] md:hidden"></div></div>
-           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu]'>Title Here</div>
+         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-3 mb-2 absolute top-1/2 -left-10 sm:top-auto sm:left-auto sm:relative"><div className="absolute bg-[#3D5C70] opacity-0 sm:opacity-100 top-0 left-1/2 sm:left-auto w-[1px] h-[210px] sm:top-1/2 sm:right-full sm:h-[1px] sm:w-[250px] md:w-[500px] xl:w-[880px] md:hidden"></div></div>
+           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu] mt-2 sm:mt-0'>Title Here</div>
           <div className='text-[#3D5C70] text-[14.5px] mt-2 mb-[20px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit mattis at commodo lobortis orci ipsum.</div>
          </div>
 
-         <div className='text-center flex items-center justify-center flex-col'>
+         <div className='sm:text-center flex sm:items-center sm:justify-center flex-col relative '>
          <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.66667 14.3333V12.9999M14 14.3333V10.3333M19.3333 14.3333V7.66658M8.66667 24.9999L14 19.6666L19.3333 24.9999M2 2.33325H26M3.33333 2.33325H24.6667V18.3333C24.6667 18.6869 24.5262 19.026 24.2761 19.2761C24.0261 19.5261 23.687 19.6666 23.3333 19.6666H4.66667C4.31304 19.6666 3.97391 19.5261 3.72386 19.2761C3.47381 19.026 3.33333 18.6869 3.33333 18.3333V2.33325Z" stroke="url(#paint0_linear_183_14)" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="paint0_linear_183_14" x1="27.584" y1="4.8993" x2="1.4533" y2="5.77968" gradientUnits="userSpaceOnUse"><stop stop-color="#A04276"/><stop offset="0.0001" stop-color="#EC597C"/><stop offset="1" stop-color="#A04276"/></linearGradient></defs></svg>
          <div className="link-gradient font-[Ubuntu] font-[700] text-[22px] mt-2">Step 3</div>
-         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-4 mb-2 relative"><div className="absolute bg-[#3D5C70] top-1/2 left-full h-[1px] w-[250px] md:w-[370px]  md:hidden"></div></div>
-           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu]'>Title Here</div>
+         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-4 mb-2 absolute top-1/2 -left-10 sm:top-auto sm:left-auto sm:relative"><div className="absolute bg-[#3D5C70] opacity-0 sm:opacity-100 top-0 left-1/2 h-[200px] w-[1px] sm:top-1/2 sm:left-full sm:h-[1px] sm:w-[250px] md:w-[370px]  md:hidden"></div></div>
+           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu] mt-2 sm:mt-0'>Title Here</div>
           <div className='text-[#3D5C70] text-[14.5px] mt-2 mb-[20px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit mattis at commodo lobortis orci ipsum.</div>
          </div>
 
-         <div className='text-center flex items-center justify-center flex-col '>
+         <div className='sm:text-center flex sm:items-center sm:justify-center flex-col relative '>
          <svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2.45673 5.37044C2.75826 4.64248 3.20023 3.98104 3.75738 3.42389C4.31454 2.86673 4.97598 2.42477 5.70393 2.12323C6.43189 1.8217 7.21211 1.6665 8.00005 1.6665C8.78799 1.6665 9.56821 1.8217 10.2962 2.12323C11.0241 2.42477 11.6856 2.86673 12.2427 3.42389L14.0001 5.18122L15.7574 3.42389C16.8826 2.29866 18.4087 1.66652 20.0001 1.66652C21.5914 1.66652 23.1175 2.29866 24.2427 3.42389C25.3679 4.54911 26.0001 6.07525 26.0001 7.66656C26.0001 9.25786 25.3679 10.784 24.2427 11.9092L14.0001 22.1519L3.75738 11.9092C3.20023 11.3521 2.75826 10.6906 2.45673 9.96267C2.1552 9.23471 2 8.45449 2 7.66656C2 6.87862 2.1552 6.0984 2.45673 5.37044Z" stroke="url(#paint0_linear_183_10)" stroke-width="2.67" stroke-linecap="round" stroke-linejoin="round"/><defs><linearGradient id="paint0_linear_183_10" x1="27.5841" y1="3.98561" x2="1.45994" y2="4.9595" gradientUnits="userSpaceOnUse"><stop stop-color="#A04276"/><stop offset="0.0001" stop-color="#EC597C"/><stop offset="1" stop-color="#A04276"/></linearGradient></defs></svg>
          <div className="link-gradient font-[Ubuntu] font-[700] text-[22px] mt-2">Step 4</div>
-         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-[19px] md:mt-4 mb-2 relative"><div className="absolute bg-[#3D5C70] top-1/2 right-full h-[1px] w-[250px] md:w-[370px]  xl:hidden"></div></div>
-           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu]'>Title Here</div>
+         <div className="w-[10px] h-[10px] rounded-full bg-[#3D5C70] mt-[19px] md:mt-4 mb-2 absolute top-1/2 -left-10 sm:top-auto sm:left-auto sm:relative"><div className="absolute opacity-0 sm:opacity-100 bg-[#3D5C70] top-1/2 right-full h-[1px] w-[250px] md:w-[370px]  xl:hidden"></div></div>
+           <div className='text-[19px] font-[700] text-[#3D5C70] font-[Ubuntu] mt-2 sm:mt-0'>Title Here</div>
           <div className='text-[#3D5C70] text-[14.5px] mt-2 mb-[20px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit mattis at commodo lobortis orci ipsum.</div>
          </div>
        </div>
-      <img src="images/circle5.svg" className='w-[270px] absolute top-16 left-0 ' alt="circle" />
-      <img src="images/circle6.svg" className='w-[400px] absolute bottom-0 right-0 ' alt="circle" />
+      <img src="images/circle5.svg" className='w-[270px] absolute hidden md:block top-16 left-0 ' alt="circle" />
+      <img src="images/circle6.svg" className='w-[400px] absolute hidden md:block bottom-0 right-0 ' alt="circle" />
     </div>
     </div>
 
