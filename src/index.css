@@ -55,6 +55,13 @@ text-fill-color: transparent;
   background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
 }
 
+.header-text-grad span{
+  background: linear-gradient(268.18deg, #A04276 -6.05%, #EC597C -6.04%, #A04276 99.59%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
 @media (max-width: 1024px){
 .home-bg{
   clip-path: polygon(0 0, 100% 0%, 100% 65%, 0 86%);
