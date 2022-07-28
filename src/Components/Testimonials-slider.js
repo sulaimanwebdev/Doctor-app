@@ -66,8 +66,8 @@ const TestimonailsSlider = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <div ref={navigationPrevRef} className='w-fit cursor-pointer absolute top-[33%] -left-20' ><img src="/images/prev.svg" alt="prev"/></div>
-      <div ref={navigationNextRef} className='w-fit cursor-pointer absolute top-[33%] -right-20'><img src="/images/next.svg" alt="next"/></div>
+      <div ref={navigationPrevRef} className='w-fit cursor-pointer absolute top-[33%] -left-7 xl:-left-20' ><img src="/images/prev.svg" alt="prev"/></div>
+      <div ref={navigationNextRef} className='w-fit cursor-pointer absolute top-[33%] -right-7 xl:-right-20'><img src="/images/next.svg" alt="next"/></div>
     </div>
     </>
   )

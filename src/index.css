@@ -7,7 +7,7 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
   /* font-family: 'Ubuntu', sans-serif; */
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
 
 .home-bg{
@@ -76,6 +76,17 @@ text-fill-color: transparent;
    padding-top: 100px;
    padding-bottom: 70px;
   }
+
+  .second-bg{
+    clip-path: polygon(0 11%, 100% 0%, 100% 88%, 0 100%) !important;
+
+  }
+
+  .second-bg .common-width{
+    padding-top: 180px;
+    padding-bottom: 130px;
+   }
+ 
 }
 
 @media (max-width: 467px){

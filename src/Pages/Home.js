@@ -45,8 +45,8 @@ const Home = () => {
       <div className="relative z-10 px-7 xl:px-0">
         <FeaturesSlider/>
       </div>
-    <img src="images/circle3.svg" className='w-[650px] hidden lg:block absolute -top-16 -left-[100px]' alt="circle" />
-    <img src="images/circle4.svg" className='w-[300px] lg:w-[400px] absolute -top-16 -right-[100px]' alt="circle" />
+    <img src="images/circle3.svg" className='w-[650px] absolute -top-16 -left-[100px] hidden md:block' alt="circle" />
+    <img src="images/circle4.svg" className='w-[300px] lg:w-[400px] absolute -top-16 -right-[100px] hidden md:block' alt="circle" />
     </div>
     </div>
 
@@ -97,14 +97,14 @@ const Home = () => {
 
     
     <div className="second-bg bg-[#F8FBFF] w-full overflow-hidden mt-10">
-    <div className="common-width relative min-h-[900px] flex items-center gap-[130px] justify-end w-full px-5 pt-1 mx-auto">
+    <div className="common-width relative lg:min-h-[900px] flex items-center flex-col lg:flex-row gap-[70px] justify-end w-full px-5 pt-1 mx-auto">
       <div className='z-10 relative max-w-[600px]'>
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>The Future of HealthCare</div>
         <div className='font-[Ubuntu] font-[700] text-[32px] sm:text-[37px] text-[#3D5C70] leading-tight'>We’re Improving the way Doctors Help Osteopathy Patients</div>
         <div className='text-[#3D5C70] leading-relaxed text-[16px] mt-4 mb-[40px]'>We are here to solve healthcare problems with artifical intelligence, we are building a new system to track the life style and help doctors make the better diagnosis.</div>
         <Link to="/contact"><button className='contact-btn-bg tracking-normal font-[600] flex items-center gap-5 rounded-[4px] py-3 px-14 text-white'>Inquire</button></Link>
       </div>
-      <img src="images/doctor-2.svg" className='w-[550px] absolute top-[200px] -left-[35px] z-10' alt="doctor" />
+      <img src="images/doctor-2.svg" className='w-[550px] lg:absolute lg:top-[200px] lg:-left-[35px] z-10' alt="doctor" />
     </div>
     </div>
 
@@ -115,17 +115,17 @@ const Home = () => {
       <div className='mb-2 link-gradient font-[600] text-[17px] font-[Ubuntu]'>Testimonials</div>
       <div className='font-[Ubuntu] font-[700] text-[29px] sm:text-[34px] text-[#3D5C70] leading-tight'>What our Clients Say</div>
       </div>
-       <div className="w-full z-10 relative mx-auto max-w-[700px]">
+       <div className="w-full z-10 relative mx-auto px-4 xl:px-0 max-w-[700px]">
         <TestimonailsSlider/>
        </div>
-      <img src="images/circle6.svg" className='w-[400px] absolute bottom-0 right-0 ' alt="circle" />
+      <img src="images/circle6.svg" className='w-[400px] absolute bottom-0 right-0 hidden md:block' alt="circle" />
     </div>
     </div>
 
 
     <div className="footer-bg w-full">
     <div className="common-width bg-transparent w-full px-5 py-5 mx-auto">
-      <div className="w-full grid grid-cols-2 gap-2 mt-[70px]">
+      <div className="w-full grid grid-cols-1 footerBreak:grid-cols-2 gap-10 footerBreak:gap-2 mt-[25px] footerBreak:mt-[70px]">
           <div className='text-white'>
              <div className='font-[600] text-[28px] font-[Ubuntu]'>Get In Touch With Us</div>
              <div className='leading-relaxed text-[15px] font-[300] mt-2 opacity-70'>Have any questions? Feel free to contact us through our contact details below or send us a direct message</div>
@@ -142,7 +142,7 @@ const Home = () => {
              <div className="w-full flex items-center justify-end mt-2"><button className='py-3 px-10 rounded bg-white text-[#EC597C] font-[600]'>Send</button></div>
           </div>
       </div>
-      <div className="w-full bg-white h-[1px] opacity-70 my-20"></div>
+      <div className="w-full bg-white h-[1px] opacity-0 footerBreak:opacity-70 my-10 footerBreak:my-20"></div>
       <Footer/>
     </div>
     </div>

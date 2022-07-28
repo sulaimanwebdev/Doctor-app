@@ -4,9 +4,9 @@ const Footer = () => {
   return (
     <>
     <div className='bg-transparent text-white'>
-    <div className='bg-transparent text-white flex items-start justify-start gap-[80px]'>
+    <div className='bg-transparent text-white flex items-start flex-col footerBreak:flex-row justify-start gap-[50px] footerBreak:gap-[40px] xl:gap-[80px]'>
       <div className='w-fit'><Link to="/"><img src="/images/logo-footer.svg" className='w-[200px]' alt="logo" /></Link></div>
-      <div className="grid grid-cols-4 gap-[60px]">
+      <div className="grid grid-cols-1 footerBreak2:grid-cols-2 footerBreak:grid-cols-4 gap-[40px] sm:gap-[70px] footerBreak:gap-[20px] xl:gap-[60px]">
         <div>
             <div className='font-[700] font-[Ubuntu] text-[19px] mb-5'>Quick Links</div>
             <div className="flex flex-col gap-5">
