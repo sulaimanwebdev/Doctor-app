@@ -6,7 +6,7 @@ const Header = ({page}) => {
 
    return (
     <>
-    <div className={`w-full sticky top-0 z-[9999] ${page === undefined ? "bg-white" : "bg-transparent"}`}>
+    <div className={`w-full relative z-[9999] ${page === undefined ? "bg-white" : "bg-transparent"}`}>
         <div className={`common-width flex items-center justify-between w-full px-5 py-4 mx-auto ${page === undefined ? "bg-white" : "bg-transparent"}`}>
             <div><Link to="/">{page === undefined ? <img src="/images/logo.svg" className='w-[140px] lg:w-auto' alt="logo" /> : <img src="/images/logo-white.svg" className='w-[140px] lg:w-[185px]' alt="logo" />}</Link></div>
             <div className="hidden lg:flex items-center gap-10">
