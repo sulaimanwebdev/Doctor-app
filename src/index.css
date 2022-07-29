@@ -131,3 +131,8 @@ text-fill-color: transparent;
 }
 
 
+@media (max-width: 1060px){
+   .contact-map{
+     order: 2;
+   }
+}
