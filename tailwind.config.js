@@ -20,7 +20,11 @@ module.exports = {
 
       '2xl': '1536px',
       // => @media (min-width: 1536px) { ... }
-      'footerBreak': '974px'
+
+      'footerBreak': '974px',
+
+      'aboutUSGrid': '424px'
+
 
 
     }
